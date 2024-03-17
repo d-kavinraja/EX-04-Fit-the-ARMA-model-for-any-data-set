@@ -76,7 +76,7 @@ plt.show()
 ![output](./out/o1.png)
 ![output](./out/o2.png)
 ![output](./out/o3.png)
-![output](./out/o4.png)\
+![output](./out/o4.png)
 
 ### RESULT:
 Thus, a python program is created to fir ARMA Model successfully.
