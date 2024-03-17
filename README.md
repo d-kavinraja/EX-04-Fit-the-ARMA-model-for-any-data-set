@@ -22,7 +22,7 @@ plot_acf and plot_pacf.
 ### Name : Kavinraja D
 ### Regno: 212222240047
 ### PROGRAM:
-```py
+
 import numpy as np
 import matplotlib.pyplot as plt
 from statsmodels.tsa.arima_process import ArmaProcess
@@ -71,7 +71,6 @@ plot_acf(arma2_sample, ax=ax[0], lags=20)
 plot_pacf(arma2_sample, ax=ax[1], lags=20)
 plt.show()
 
-```
 ### OUTPUT:
 ![output](./out/o1.png)
 ![output](./out/o2.png)
