@@ -19,10 +19,10 @@ axis limits.
 
 6. Display the autocorrelation and partial autocorrelation plots for the ARMA(2,2) process using
 plot_acf and plot_pacf.
+### PROGRAM:
+```py
 ### Name : Kavinraja D
 ### Regno: 212222240047
-### PROGRAM:
-
 import numpy as np
 import matplotlib.pyplot as plt
 from statsmodels.tsa.arima_process import ArmaProcess
@@ -71,6 +71,7 @@ plot_acf(arma2_sample, ax=ax[0], lags=20)
 plot_pacf(arma2_sample, ax=ax[1], lags=20)
 plt.show()
 
+```
 ### OUTPUT:
 ![output](./out/o1.png)
 ![output](./out/o2.png)
