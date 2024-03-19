@@ -1,4 +1,4 @@
-# Ex.No:04   FIT ARMA MODEL FOR TIME SERIES
+# Ex.No:04   FIT ARMA MODEL FOR TIME SERIES DATA
 # Date: 
 ### AIM:
 To implement ARMA model in python.
