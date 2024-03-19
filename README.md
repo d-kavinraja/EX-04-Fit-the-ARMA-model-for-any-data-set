@@ -28,7 +28,6 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.arima_process import ArmaProcess
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 
-# Set up matplotlib settings for figure size
 plt.rcParams['figure.figsize'] = [10, 6]
 
 # Define ARMA(1,1) process
@@ -37,7 +36,7 @@ ma1 = np.array([0.5])
 arma1_process = ArmaProcess(ar1, ma1)
 arma1_sample = arma1_process.generate_sample(nsample=1000)
 
-# Plot generated time series
+# Plot time series
 plt.figure()
 plt.plot(arma1_sample)
 plt.title('ARMA(1,1) Process')
